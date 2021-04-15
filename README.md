@@ -23,3 +23,6 @@ A third Excel file has a dataset extracted from Wikipedia with relative data poi
 
 You can find details on how this dataset was created from Powr BI in this blog post:
 https://datamesse.github.io/blog/2021/01/23/import-time-zone-offsets-and-observation-anchors-from-wikipedia.html
+
+Agent photos can be found in this directory
+* https://github.com/datamesse/excel-support-ticket-update-generator/tree/main/agents
