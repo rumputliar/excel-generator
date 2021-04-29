@@ -1,11 +1,11 @@
 # Excel Random Name and Support Ticket Update Generators
 
-In order to create a dashboard design that analyses the performance of customer support/service agents, I first needed to generate a fictional and randomised dataset for it.
+In order to create a data dashboard design that analyses the performance of customer support/service agents across timezones including the degree to which each global office provides Follow-the-Sun (FTS) support, I first needed to generate a fictional and randomised dataset for it.
 
-The result are two Excel files:
+I started by creating a random business, person name, and email generator in Excel, which is based off of lists of popular given and surnames from a variety of major countries, and common words used in business names.
 
 1. Random business and people's name generator
-* https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx
+* [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx?raw=true)
 
 2. Random support ticket update generator
 * https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_generator_v2.xlsx
@@ -21,8 +21,10 @@ A third Excel file has a dataset extracted from Wikipedia with relative data poi
 3. Standard and Daylight Saving Observations dataset
 * https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Time_zone_offsets_and_DST_observations.xlsx
 
-You can find details on how this dataset was created from Powr BI in this blog post:
+You can find details on how this dataset was created from Power BI in this blog post:
 https://datamesse.github.io/blog/2021/01/23/import-time-zone-offsets-and-observation-anchors-from-wikipedia.html
 
 Agent photos can be found in this directory
 * https://github.com/datamesse/excel-support-ticket-update-generator/tree/main/agents
+
+**Important notes:** Because the generators rely on Excel formula randomisation and Excel is typically defaulted to Automatic Workbook Calculation, each time the generator workbooks are opened or edited, new values are generated.
