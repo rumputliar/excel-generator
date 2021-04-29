@@ -1,13 +1,13 @@
 # Excel Random Name and Support Ticket Update Generators
 
-In order to create a data dashboard design that analyses the performance of customer support/service agents across timezones including the degree to which each global office provides Follow-the-Sun (FTS) support, I first needed to generate a fictional and randomised dataset for it.
+In order to create a data dashboard design that analyses the performance of customer support/service agents across timezones, including the degree to which each global office provides Follow-the-Sun (FTS) support, I first needed to generate a fictional and randomised dataset for it.
 
 I started by creating a random business, person name, and email generator in Excel, which is based on lists of popular given and surnames from a variety of major countries, and common words used in business names.
 
 1. Random business and people's name generator
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx?raw=true)
 
-The Random Name generator can be quite random. So it's best to revise the output by checking how frequent certain names are to avoid duplicates. Once the output is cleaned up, you just ned the Full Name and Location details for the Support Ticket Update Generator.
+The Random Name generator can be quite, well random. So it's best to revise the output by checking how frequent certain names are to avoid duplicates. Once the output is cleaned up, you just ned the Full Name and Location details for the Support Ticket Update Generator.
 
 2. Random support ticket update generator
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_generator_v2.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_generator_v2.xlsx?raw=true)
