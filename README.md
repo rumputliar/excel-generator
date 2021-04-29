@@ -7,6 +7,8 @@ I started by creating a random business, person name, and email generator in Exc
 1. Random business and people's name generator
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx?raw=true)
 
+By default it creates 3000 random names across 500 random businesses.
+
 The Random Name generator can be quite, well random. So it's best to revise the output by checking how frequent certain names are to avoid duplicates. Once the output is cleaned up, you just ned the Full Name and Location details for the Support Ticket Update Generator.
 
 2. Random support ticket update generator
