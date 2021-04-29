@@ -4,7 +4,7 @@ In order to create a data dashboard design that analyses the performance of cust
 
 I started by creating a random business, person name, and email generator in Excel, which is based on lists of popular given and surnames from a variety of major countries, and common words used in business names.
 
-1. Random business and people's name generator
+**1. Random business and people's name generator**
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx?raw=true)
 
 By default it creates 3000 random names across 500 random businesses.
