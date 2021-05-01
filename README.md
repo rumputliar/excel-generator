@@ -84,7 +84,7 @@ Then manually define the response times for each client.
 
 2. Because the generators rely on Excel formula randomisation and Excel is typically defaulted to Automatic Workbook Calculation, each time the generator workbooks are opened or edited (or click Enter in a cell), new values are generated.
 
-3. Based on the previous point, copying data from the ticket updates generator to another open Excel workbook risks the **Updates** and **Assignment** worksheets re-randomising during that process, causing discrepancies. To get around that, you can Save As each worksheet as a new tab delimited flat text file. Then copy-and-paste from those flat text files into the new Excel workbook, to avoid that problem.
+3. Based on the previous point, copying data from the ticket updates generator to another open Excel workbook risks the **Updates** and **Assignment** worksheets re-randomising during that process, and causing discrepancies. To get around that, you can Save As each worksheet as a new tab delimited flat text file. Then copy-and-paste from those flat text files into the new Excel workbook, to avoid that problem.
 
 A third optional Excel dataset below was extracted from Wikipedia with relative data points on when Daylight Savings are applied for different timezones and the hour offsets, which I've referred to as "anchors".
 
