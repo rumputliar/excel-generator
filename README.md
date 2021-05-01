@@ -25,7 +25,7 @@ After deciding on the names to be used for the support agents, populate the rele
 
 ![Filling in support agent names in ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/03.png?raw=true)
 
-There a number of columns representing the statistics for each agent that need to be manually defined  (indicated in blue).
+There are a number of columns representing the statistics for each agent that need to be manually defined  (indicated in blue).
 
 ![Filling in support agent statistics](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/04.png?raw=true)
 
@@ -63,7 +63,7 @@ These columns are specific to each agent.
 * *Photo ID*: Optional field.
 * *Photo URL*: Optional field.
 
-Agent photos for the samplee dataset are here:
+Agent photos for the sample dataset are here:
 * [https://github.com/datamesse/excel-support-ticket-update-generator/tree/main/agents](https://github.com/datamesse/excel-support-ticket-update-generator/tree/main/agents)
 
 After deciding on the names to be used for the clients, populate the relevant columns under the **Client** worksheet (indicated in red).
@@ -74,12 +74,13 @@ Then manually define the response times for each client.
 * *Minimum response time*: Earliest time in minutes for client to reply to agent.
 * *Maximum response time*: Latest time in minutes for client to reply to agent.
 
-A third Excel file has a dataset extracted from Wikipedia with relative data points on when Daylight Savings gets applied for different timezones and the hour offsets, which I've referred to as anchors.
+**Important note:** Because the generators rely on Excel formula randomisation and Excel is typically defaulted to Automatic Workbook Calculation, each time the generator workbooks are opened or edited (or click Enter in a cell), new values are generated.
+
+
+A third optional Excel dataset below was extracted from Wikipedia with relative data points on when Daylight Savings are applied for different timezones and the hour offsets, which I've referred to as "anchors".
 
 **3. Standard and Daylight Saving Observations dataset**
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Time_zone_offsets_and_DST_observations.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Time_zone_offsets_and_DST_observations.xlsx?raw=true)
 
 You can find details on how this dataset was created from Power BI in this blog post:
 [https://datamesse.github.io/blog/2021/01/23/import-time-zone-offsets-and-observation-anchors-from-wikipedia.html](https://datamesse.github.io/blog/2021/01/23/import-time-zone-offsets-and-observation-anchors-from-wikipedia.html)
-
-**Important note:** Because the generators rely on Excel formula randomisation and Excel is typically defaulted to Automatic Workbook Calculation, each time the generator workbooks are opened or edited (or click Enter in a cell), new values are generated.
