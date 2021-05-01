@@ -13,7 +13,7 @@ By default it creates 3000 random names across 500 random businesses.
 
 ![Random business generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/02.png?raw=true)
 
-The Random Name generator can be quite, well random. So it's best to revise the output by checking how frequent certain names are to avoid duplicates. Once the output is cleaned up, you just need the Full Name and Location details for the Support Ticket Update Generator. If you need to prodduce a new set of names, simply go into any cell, then press Enter to trigger the randomisation.
+The Random Name generator can be quite, well random. So it's best to revise the output by checking how frequent certain names are to avoid duplicates. Once the output is cleaned up, you just need the Full Name and Location details for the Support Ticket Update Generator.
 
 **2. Random support ticket update generator**
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_generator_v2.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_generator_v2.xlsx?raw=true)
@@ -82,4 +82,4 @@ https://datamesse.github.io/blog/2021/01/23/import-time-zone-offsets-and-observa
 Agent photos can be found in this directory
 * https://github.com/datamesse/excel-support-ticket-update-generator/tree/main/agents
 
-**Important note:** Because the generators rely on Excel formula randomisation and Excel is typically defaulted to Automatic Workbook Calculation, each time the generator workbooks are opened or edited, new values are generated.
+**Important note:** Because the generators rely on Excel formula randomisation and Excel is typically defaulted to Automatic Workbook Calculation, each time the generator workbooks are opened or edited (or click Enter in a cell), new values are generated.
