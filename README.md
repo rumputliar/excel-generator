@@ -66,9 +66,13 @@ These columns are specific to each agent.
 Agent photos for the sample dataset are here:
 * [https://github.com/datamesse/excel-support-ticket-update-generator/tree/main/agents](https://github.com/datamesse/excel-support-ticket-update-generator/tree/main/agents)
 
+Photographs were taken from [Pixabay.com](https://pixabay.com/service/license/) and [Pexels.com](https://www.pexels.com/license/) for non-commercial use, edited to fit the appearance of an organisational profile photo, and direct URL attribution included in the dataset for each photo.
+
+![Sample dataset agent photos](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/05.png?raw=true)
+
 After deciding on the names to be used for the clients, populate the relevant columns under the **Client** worksheet (indicated in red).
 
-![Filling in client names in ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/05.png?raw=true)
+![Filling in client names in ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/06.png?raw=true)
 
 Then manually define the response times for each client.
 * *Minimum response time*: Earliest time in minutes for client to reply to agent.
