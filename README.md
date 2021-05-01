@@ -15,7 +15,7 @@ By default it creates 3000 random names across 500 random businesses.
 
 The Random Name generator can be quite, well random. So it's best to revise the output by checking how frequent certain names are to avoid duplicates. Once the output is cleaned up, you just ned the Full Name and Location details for the Support Ticket Update Generator.
 
-2. Random support ticket update generator
+**2. Random support ticket update generator**
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_generator_v2.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_generator_v2.xlsx?raw=true)
 
 A sample file of the output can be found here
@@ -26,7 +26,7 @@ https://datamesse.github.io/blog/2021/02/27/support-ticket-update-times-dataset-
 
 A third Excel file has a dataset extracted from Wikipedia with relative data points on when Daylight Savings gets applied for different timezones and the hour offsets, which I've referred to as anchors.
 
-3. Standard and Daylight Saving Observations dataset
+**3. Standard and Daylight Saving Observations dataset**
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Time_zone_offsets_and_DST_observations.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Time_zone_offsets_and_DST_observations.xlsx?raw=true)
 
 You can find details on how this dataset was created from Power BI in this blog post:
