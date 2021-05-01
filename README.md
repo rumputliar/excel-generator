@@ -8,7 +8,7 @@ I started by creating a random business, person name, and email generator in Exc
 
 <ul>
   <li>
-[https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx?raw=true)
+[Download here](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Random_name_and_business_generator.xlsx?raw=true)
 
 By default it creates 3000 random names across 500 random businesses.
 
