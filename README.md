@@ -59,7 +59,7 @@ These columns are specific to each agent.
 * *Assignment latest time*: Latest time in minutes for agent to pick up tickets.
 * *Minimum response time*: Earliest time in minutes for agent to reply to client.
 * *Maximum response time*: Latest time in minutes for agent to reply to client.
-* *Dev ticket self raise probability*: Probability the agent creates reports the development ticket for their own support ticket.
+* *Dev ticket self raise probability*: Probability the agent reports the development ticket for their support ticket.
 * *Photo ID*: Optional field.
 * *Photo URL*: Optional field.
 
