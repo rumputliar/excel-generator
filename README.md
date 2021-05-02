@@ -21,13 +21,32 @@ It's recommended to revise the output for duplicates or other unrealistic or und
 Sample output can be downloaded here:
 * [https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_v2.xlsx](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/Support_ticket_updates_v2.xlsx?raw=true)
 
+Because Excel's randomisation appears to create a discrete uniform distribution of values, I created the **Main** worksheet to define deliberate trends.
+
+In this case, there are 2 areas:
+* *Ticket criticality ranges by country*: The probability range of an End-user raising the ticket as Critical, High, Medium, or Low based on their *Country*.
+* *Development escalation by country*: The probability that an End-user's support ticket is escalated to development based on their *Country*.
+
+How *Ticket criticality ranges by country* works: 
+
+**Updates 1** randomises between 1 and 100, and if the value is:
+ - Greater than or equal to *High*, then the ticket is "Critical".
+ - Greater than or equal to *Medium*, then the ticket is "High".
+ - Greater than or equal to *Low*, then the ticket is "Medium"
+ - If it meets none of the conditions, it is "Low".
+
+![Main tab of ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/03.png?raw=true)
+
+**Note:** The current data in this worksheet is setup based on the locations for the randomised people I extracted using the first generator. If you have additional clients based in other countries not here, you will need to add them in.
+
+
 After deciding on the names to be used for the support agents, populate the relevant columns under the **Staff** worksheet (indicated in red). The columns which are autopopulated using vlookups should be left alone (e.g. *Timezone* and *Randomiser helper*). 
 
-![Filling in support agent names in ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/03.png?raw=true)
+![Filling in support agent names in ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/04.png?raw=true)
 
 There are a number of columns representing the statistics for each agent that need to be manually defined  (indicated in blue).
 
-![Filling in support agent statistics](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/04.png?raw=true)
+![Filling in support agent statistics](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/05.png?raw=true)
 
 The following 3 columns are used by the **Updates 1** worksheet's *Assignee name* column to distribute tickets among agents belonging to the same *Office region*.
 
@@ -68,11 +87,11 @@ Agent photos for the sample dataset are here:
 
 Photographs were taken from [Pixabay.com](https://pixabay.com/service/license/) and [Pexels.com](https://www.pexels.com/license/) for non-commercial use, edited to fit the appearance of an organisational profile photo, and direct URL attribution included in the dataset for each photo.
 
-![Sample dataset agent photos](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/05.png?raw=true)
+![Sample dataset agent photos](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/06.png?raw=true)
 
 After deciding on the names to be used for the clients, populate the relevant columns under the **Client** worksheet (indicated in red).
 
-![Filling in client names in ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/06.png?raw=true)
+![Filling in client names in ticket update generator](https://github.com/datamesse/excel-support-ticket-update-generator/blob/main/screenshots/07.png?raw=true)
 
 Then manually define the response times for each client.
 * *Minimum response time*: Earliest time in minutes for client to reply to agent.
